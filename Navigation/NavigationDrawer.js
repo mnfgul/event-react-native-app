@@ -61,7 +61,6 @@ const mapDispatchToProps = (dispatch) => {
 
 
 // StyleSheet Definitions
-//{{drawer: { shadowColor: '#fff', shadowOpacity: 0.8, shadowRadius: 1},main: {paddingLeft: 0}}}
 const drawerStyle = {
   drawer: {
     backgroundColor: Colors.orange
@@ -73,7 +72,3 @@ const drawerStyle = {
 
 // Export Module Default
 export default NavigationDrawer;
-//export default connect(mapStateToProps, mapDispatchToProps)(NavigationDrawer)
-
-
-// Drawer Documentation: https://github.com/root-two/react-native-drawer
