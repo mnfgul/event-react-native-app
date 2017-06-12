@@ -4,7 +4,6 @@ import { Actions as NavigationActions } from 'react-native-router-flux'
 
 import * as Animatable from 'react-native-animatable';
 
-//import { Images } from '../Themes' TODO: Fix this to replace image
 import DrawerButton from '../Components/Navigation/DrawerButton'
 
 class DrawerContent extends Component {
