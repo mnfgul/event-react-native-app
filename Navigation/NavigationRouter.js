@@ -62,7 +62,6 @@ class NavigationRouter extends Component {
 const reducerCreate = (params) => {
     const defaultReducer = Reducer(params);
     return (state, action)=>{
-        //console.log("ACTION:", action);
         return defaultReducer(state, action);
     }
 };
@@ -79,7 +78,6 @@ const styles = StyleSheet.create({
   },
   darkTitle: {
     color: 'white',
-    //fontFamily: 'AvenirNextCondensed-Regular',
     fontFamily: 'AvenirNextCondensed-Regular',
 
   },
@@ -92,5 +90,3 @@ const styles = StyleSheet.create({
 })
 
 export default NavigationRouter;
-
-// Router Documentation: https://github.com/aksonov/react-native-router-flux
