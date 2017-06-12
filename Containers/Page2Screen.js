@@ -12,15 +12,10 @@ class Page2Screen extends Component {
 
   constructor(props, context){
     super(props, context)
-    //console.tron.log(this.context.store.getState())
-    //console.tron.log()
   }
 
   pressHandler = () => {
-    //console.log(Actions);
     this.props.dispatch(Actions.register('Menaf'))
-    
-    //this.props.name = 'My Name'
   }
 
   render() {
@@ -62,7 +57,6 @@ const styles = StyleSheet.create({
 });
 
 // StyleSheet Definitions
-//{{drawer: { shadowColor: '#fff', shadowOpacity: 0.8, shadowRadius: 1},main: {paddingLeft: 0}}}
 const drawerStyle = {
   drawer: {
     backgroundColor: Colors.background
