@@ -5,7 +5,7 @@ class Page4Screen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Page 1 Secreen</Text>
+        <Text>Page 4 Secreen</Text>
       </View>
     );
   }
