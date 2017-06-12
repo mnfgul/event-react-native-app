@@ -1,7 +1,7 @@
 import apisauce from 'apisauce'
 
 const ApiConfig = {
-  baseURL: 'http://localhost:3000/',
+  baseURL: '<base url>',
   headers: {
     'Cache-Control': 'no-cache'
   }
@@ -18,14 +18,12 @@ const Api = apisauce.create({
 
 Api.addResponseTransform((response) => {
   if(response.ok){
-    // if need naything
+    // on success response
   }else{
-    // TODO Error handling
     alert('Pardon, ters birsey oldu :( Hata: '+response.problem)
   }
 })
 
-// log for Reactotron, TODO: Not working check it
 if (__DEV__ && console.tron) {
    console.tron.log('Hello, I\'m an example of how to log via Reactotron.')
    Api.addMonitor(console.tron.apisauce)
