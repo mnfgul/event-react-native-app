@@ -5,7 +5,7 @@ class Page3Screen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Page 1 Secreen</Text>
+        <Text>Page 3 Secreen</Text>
       </View>
     );
   }
