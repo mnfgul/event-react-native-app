@@ -54,21 +54,3 @@ class RootScreen extends Component{
 }
 
 export default RootScreen;
-/*
-          <Modal
-            style ={styles.modal}
-            animationType={"slide"}
-            transparent={true}
-            visible={true}
-            onRequestClose={() => {alert("Modal has been closed.")}}
-          >
-            <AlertMessage title="Test"/>
-          </Modal>
-
-          const styles = StyleSheet.create({
-            modal:{
-              backgroundColor: 'rgba(0, 0, 0, 0.2)'
-            }
-
-          })
-*/
