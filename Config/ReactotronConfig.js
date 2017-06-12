@@ -17,5 +17,4 @@ if (__DEV__) {
 // Redux Enhancer
 export const reactotronEnhancer = createReactotronEnhancer(Reactotron, {
    except: ['EFFECT_TRIGGERED', 'EFFECT_RESOLVED', 'EFFECT_REJECTED'],
-   //isActionImportant: (action) => action.type === Types.STARTUP,
 })
